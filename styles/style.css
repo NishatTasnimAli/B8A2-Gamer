@@ -1,0 +1,841 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Work Sans;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+/* ---Header Style-------- */
+
+.nav-container{
+    max-width: 1500px;
+    min-height: 130px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img{
+    width: 86.041px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.logo-title{
+    text-align: left;
+    font-size: 45px;
+    font-weight: 700;
+    color:#FF42A5;
+}
+.title{
+    text-align: left;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+}
+.nav-items{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-items li{
+ list-style: none;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.icon-set{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 350px;
+    height: 56px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-text{
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 24px;
+}
+.fa-brands{
+    margin-right: 16px;
+}
+/* ---Header Style Ends---- */
+
+/* ----Banner Style Starts---- */
+
+.banner-container{
+    max-width: 1500px;
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+    background:  rgba(255, 66, 165, 0.03);
+}
+.banner-description{
+    width: 50%;
+    background: url(images/Group\ 14.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 180px;
+    margin-right: 100px;
+}
+.bn-tittle{
+    color: #0B0223;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.subtittle{
+    text-align: left;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon-list{
+    display: flex;
+
+}
+.icon-list > span{
+    margin: 17px 8px;
+}
+.icon-list-text{
+    margin: 17px 8px;
+}
+.btn-primary{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px; 
+    background:  #FF42A5;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn-secondary{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-img{
+    width: 50%;
+}
+
+.banner-img img{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+/* ----Banner Style Ends---- */
+
+/* ------Optional Section-01 Starts----- */
+.gamer{
+    display: flex;
+    margin: 0px auto;
+    background:  rgba(255, 66, 165, 0.03) ;
+    height: 600px;
+    max-width: 1500px;
+}
+.gamer-img{
+    width: 50%;
+}
+.gamer-img img{
+    width: 100%;
+    height: 489px;
+    flex-shrink: 0;
+}
+.gamer-text{
+    width: 50%;
+    padding: 56px 52px;
+    text-align: right;
+    justify-content: right;
+    margin: auto 0;
+}
+.gamer-tittle{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-info{
+    margin: 24px 0px 32px;
+    text-align: right;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.quote{
+    margin: 24px 0;
+    text-align: right;
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+b{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* --------Optional Section-01 Ends------- */
+/* -----Online Game Styles Start------ */
+.online-game{
+    max-width: 1500px;
+    height: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 56px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 600px;
+}
+.online-gm-tittle{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 24px 0 24px;
+}    
+.online-gm-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-gm-info{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin: 0 0 48px;
+}
+.game-card{
+  margin-left: 24px;
+}
+.game-card img{
+    width: 342px;
+    height: 400px;
+    border-radius: 0px;
+    display: block;
+}
+.gm-about{
+    text-align: left;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 24px 12px;
+}
+.game-card img:hover{
+    border: 3px solid #FF42A5;
+    border-radius: 15px;
+}
+.hidden-content{
+    width: 344px;
+    height: 400px;
+    top: 1568px;
+    left: 50px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 15px;
+    border: 3px solid #FF42A5;
+}
+.hidden-content-1{
+    width: 344px;
+    height: 400px;
+    top: 1568px;
+    left: 417px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 15px;
+    border: 3px solid #FF42A5;
+}
+.hidden-content-2{
+    width: 344px;
+    height: 400px;
+    top: 1568px;
+    left: 780px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 15px;
+    border: 3px solid #FF42A5;
+}
+.hidden-content-3{
+    width: 344px;
+    height: 400px;
+    top: 1568px;
+    left: 1150px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 15px;
+    border: 3px solid #FF42A5;
+}
+.hidden-content-3:hover{
+    opacity: 1;
+}
+.hidden-content-2:hover{
+    opacity: 1;
+}
+.hidden-content-1:hover{
+    opacity: 1;
+}
+.hidden-content:hover{
+    opacity: 1;
+}
+.f-color{
+    color: #FFF;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+.hidden-text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* -----Online Game Styles End------ */
+
+/* --------Optional Section-02 Starts----- */
+.play, .play2{
+    max-width: 1500px;
+    height: 600px;
+    padding: 56px 56px;
+    display: flex;
+    margin: 100px auto;
+}
+.container{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    padding-left: 300px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.play-tittle{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-color{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    text-align: right;
+
+}
+.play-info{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.play-img{
+    width: 50%;
+    text-align: left;
+}
+.play-img img1{
+    border-radius: 8px;
+    width: 400px;
+    height: 400px;
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -200px;
+    right: 65px;
+}
+
+/* ------Optional Section-02 Ends------ */
+
+
+/* ------Optional Section-03 Starts------ */
+.play2{
+    margin-top: 200px;
+}
+.container2{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    padding-right: 280px;
+    text-align: left;
+    margin-left: 100px;
+}
+.play-tittle2{
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.play-color2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    text-align: left;
+
+}
+.play-info2{
+    color: #534C64;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.play-img2{
+    width: 50%;
+    text-align: right;
+}
+.play-img2 img1{
+    border-radius: 8px;
+    width: 400px;
+    height: 400px;
+}
+.play-img2 .img4{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -200px;
+    left: 80px;
+    text-align: right;
+}
+
+
+
+/* ------Optional Section-02 Ends------ */
+/* -------Optional Section-03 Starts----- */
+
+.career{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 600px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin-top: 250px;
+    text-align: left;
+}
+
+
+.career-info{
+    width: 50%;
+    text-align: left;
+    margin: auto 40px;
+}
+
+.career-tittle{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    text-align: left;
+    margin: 24px 0;
+}
+.career-text{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.btn-white{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FF42A5;
+    border: none;
+    margin: 24px 0;
+}
+.career-img{
+    width: 50%;
+    justify-content: center;
+}
+.career-img img{
+    width: 100%;
+    height: 600px;
+}
+
+/* -------Optional Section-03 Ends------- */
+
+/* -----Button Section Starts----- */
+.button{
+    max-width: 1500px;
+    height: 300px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.btn-grp-1, .btn-grp-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+.btn-grp > a{
+    margin-right: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #0B0223;
+    font-size: 22px;
+    font-weight: 600;    
+}
+a > img{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.btn-grp > a:hover{
+    border: 3px solid #FF42A5;
+    border-radius: 30px;
+}
+
+
+/* -------Button Section Ends----- */
+
+/* -------Footer Design--- */
+
+
+.foot{
+    background-color: #0B0223;
+    max-width: 1500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+    margin: auto;
+}
+.logos{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 80px 0  40px;
+}
+.logo-title5{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color:#FF42A5;
+}
+.titles{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.text-grp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.txt{
+    margin: 5px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.fa-brands{
+    font-size: 45px;
+    margin: 24px;
+}
+
+.txt1{
+    margin: 15px;
+    color: #878787;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text5{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #736e6e;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+/*--------Mobile Device-------- */
+
+@media screen and (max-width:426px) {
+
+.nav-container{
+    flex-direction: column;
+    margin: 5px auto;
+}   
+.logo{
+        flex-direction: column;
+        width: 100%;
+    }
+.nav-items{
+        flex-direction: column;
+        width: 100%;
+    }
+    .tittle{
+        font-size: 22px;
+    }
+    .nav-items  a{
+     line-height: 20px;
+    }
+    .icon-list{
+        margin: 5px 0;
+    }
+    .fa-brands{
+        font-size: 25px;
+    }
+    
+    .banner-container{
+        flex-direction: column-reverse;
+        margin: 500px 0 0;
+    }
+    .banner-description{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        padding: 50px;
+    }
+    .banner-img{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        padding: 50px;
+    }
+    .banner-img img{
+        display: block;
+        height: 500px;
+        width: 100%;
+    }
+    .bn-tittle{
+        font-size: 36px;
+    }
+    .subtittle{
+        font-size: 65px;
+    }
+    .btn-primary{
+        padding: 11px 20px;
+        font-size: 16px;
+    }
+    .btn-secondary{
+        padding: 11px 20px;
+        font-size: 16px;
+    }
+    .gamer{
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    .gamer-text{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 20px 20px;
+        margin: 120px 0;
+    }
+    .gamer-img{
+        flex-direction: column;
+        width: 100%;
+    }
+    .online-game{
+        flex-direction: column;
+        margin: 520px 0;
+    }
+    .card-container{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0 0;
+        padding: 0;
+    }
+    .game-card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: block;
+    }
+    .play{
+        flex-direction: column;
+        margin: 500px 0 0;
+        display:hide;
+        visibility: hidden;
+        width: 100%;
+    }
+     .container{
+        flex-direction: column;
+        width: 100%;
+        margin:600px 0;
+        padding: 200px;
+    }
+    .play-img{
+        flex-direction: column;
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .img1{
+        width: 300px;
+        height: 300px;
+    }
+    .img2{
+        width: 48px;
+        height: 48px;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    .career{
+        flex-direction: column;
+        
+    }
+    .career-info{
+        width: 100%;
+        flex-direction: column;
+    }
+    .career-img{
+        flex-direction: column;
+        width: 100%;
+        margin: 40px 0 100px;
+    }
+    .button{
+        flex-direction: column;
+        margin: 300px 0 150px;
+    }
+    .btn-grp-1, .btn-grp-2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content:center;
+        gap: 5px;
+    }
+    .btn-grp a{
+        font-size: 12px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .foot{
+        flex-direction: column;
+        height: 800px;
+
+    }
+    .logos{
+        flex-direction: column;
+        width: 100%;
+    }
+    .text-grp{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        justify-content: center;
+    }
+
+}
